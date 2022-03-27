@@ -1,0 +1,48 @@
+@media only screen and (max-width:500px){
+    
+.logo_area{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+/* ======================
+    menu section
+========================= */
+#nav_menu{
+    display: none;
+}
+
+/* ======================
+    blue section 
+========================= */
+.inner_hero{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* ======================
+    service section 
+========================= */
+.inner_service{
+grid-template-columns: 1fr;
+}
+
+/* ======================
+    blog section 
+========================= */
+.inner_blog{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.child_blog1 {
+    width: 100%;
+}
+  
+/* ======================
+    footer section 
+========================= */
+.inner_footer{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+}

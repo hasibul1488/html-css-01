@@ -205,7 +205,7 @@ hr{
 #hero{
     background: #049BAC;
 }
-.inner_hero{
+.child_hero{
     overflow: hidden;
     padding: 0;
 }
@@ -271,8 +271,8 @@ hr{
 .inner_service{
     overflow: hidden;
     padding: 25px 0;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .child_service{
     /* width: 24%; */
