@@ -1,0 +1,50 @@
+[0304/120532.648:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0304/120537.671:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0304/120542.683:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0304/120547.697:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0304/120552.710:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0304/120557.723:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0304/120602.763:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0304/120607.774:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0304/120612.799:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0304/120617.825:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0304/120622.848:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0304/120627.862:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0304/162848.028:INFO:CONSOLE(1)] "Long rAF frame-time", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-rich-tooltips/build/external.js (1)
+[0304/162848.242:WARNING:angle_platform_impl.cc(52)] compileToBinary(230): 
+C:\fakepath(69,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(77,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0304/163747.908:INFO:CONSOLE(1)] "Long rAF frame-time", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-rich-tooltips/build/external.js (1)
+[0304/163748.140:WARNING:angle_platform_impl.cc(52)] compileToBinary(230): 
+C:\fakepath(69,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(77,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0304/165648.617:ERROR:media_internals.cc(112)] Cannot get RenderProcessHost
+[0304/222606.063:INFO:CONSOLE(1)] "Long rAF frame-time", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-rich-tooltips/build/external.js (1)
+[0304/223001.117:WARNING:angle_platform_impl.cc(52)] compileToBinary(230): 
+C:\fakepath(69,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(77,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0305/004753.334:ERROR:browser_gpu_channel_host_factory.cc(139)] Failed to launch GPU process.
+[0305/090610.481:INFO:CONSOLE(1)] "Long rAF frame-time", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-rich-tooltips/build/external.js (1)
+[0305/090610.733:WARNING:angle_platform_impl.cc(52)] compileToBinary(230): 
+C:\fakepath(69,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(77,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0305/124549.130:INFO:CONSOLE(1)] "Long rAF frame-time", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-rich-tooltips/build/external.js (1)
+[0305/124549.370:WARNING:angle_platform_impl.cc(52)] compileToBinary(230): 
+C:\fakepath(69,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(77,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0306/135107.161:INFO:CONSOLE(1)] "Long rAF frame-time", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-rich-tooltips/build/external.js (1)
+[0306/135107.391:WARNING:angle_platform_impl.cc(52)] compileToBinary(230): 
+C:\fakepath(69,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(77,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0306/143149.782:ERROR:media_internals.cc(112)] Cannot get RenderProcessHost
+[0306/222041.573:INFO:CONSOLE(1)] "Long rAF frame-time", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-rich-tooltips/build/external.js (1)
+[0306/222041.981:WARNING:angle_platform_impl.cc(52)] compileToBinary(230): 
+C:\fakepath(69,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(77,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
