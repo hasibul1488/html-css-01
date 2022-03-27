@@ -1,0 +1,458 @@
+/* -------------------------------
+    common css
+---------------------------------- */
+@font-face {
+    font-family: Verdana;
+    src: url(fonts/Verdana.ttf);
+    
+}
+body{
+    color:#666 ;
+    margin: 0;
+    font-family:georgia, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5em;
+    
+}
+
+.container{
+    margin: 0 auto;
+    width: 960px;
+    max-width: 96%;
+}
+hr{
+    margin: 0;
+}
+
+/* -------------------------------
+     top header css
+---------------------------------- */
+#header_area{
+    width: 100%;
+    background: #EAF2F4;
+    padding: 15px 0;
+    height: 60px;
+}
+.inner_header{
+    overflow: hidden;  
+}
+.logo_area{
+    float: left;
+    overflow: hidden;
+}
+.logo{
+    float: left;
+}
+.logo h1{
+    font-weight: normal;
+    font-size: 36px;   
+}
+.logo h1 a{
+    text-decoration: none;
+    color: #4d4e49;
+    position: relative;
+}
+.logo h1 a::after{
+    background: #000;
+    content: "";
+    position: absolute;
+    top: 2px;
+    right: -10px;
+    height: 45px;
+    width: 1px;
+}
+.moto{
+    float: right;
+}
+.moto p{
+    font-size: 18px;
+    font-weight: normal;
+    color: #4d4e49; 
+    position: absolute;
+    padding: 10px 20px; 
+    position: relative;  
+}
+.search_area{
+    float: right;
+    width: 30%;  
+}
+.search_area form{
+    text-align: right;
+    padding: 20px 0;   
+}
+
+/* -----------------------------
+    Navigation menu css
+-------------------------------- */
+
+#nav_menu{
+    height: 35px;
+    /* background: #4d4e49;  */
+    background: #EAF2F4;
+
+    
+    
+}
+
+/* -----------------------------
+    Dropdown css
+-------------------------------- */
+
+/* --------------------  */
+
+  #menu{
+    /* margin-bottom: 1px;; */
+  }
+  #menu > ul{
+    /* background: #000;  */
+  }
+  #menu ul
+  {
+    list-style:none;
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0;
+  }
+
+  #menu ul a
+  {
+    display:block;
+    color: #4d4e49; 
+    text-decoration:none;
+    font-weight:normal;
+    font-size:15px;
+    line-height:32px;
+    padding:0 15px;
+    
+  }
+
+  #menu ul li
+  {
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0
+  }
+
+  /* #menu ul li.active
+  {
+    background:#27ae60
+  } */
+
+  #menu ul li:hover
+  {
+    /*background:#f6f6f6*/
+    background: #95a5a660;
+  }
+
+  #menu ul ul
+  {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background: #EAF2F4;
+
+    padding:0
+  }
+
+  #menu ul ul li
+  {
+    float:none;
+    width:200px;
+    border-left: 3px solid #EAF2F4;
+    
+
+  }
+  #menu ul ul li:hover{
+    border-left: 3px solid #2c3e50;
+  }
+
+  #menu ul ul a
+  {
+    line-height:120%;
+    padding:10px 15px
+  }
+
+  #menu ul ul ul
+  {
+    top:-4px;
+    left:100%
+  }
+
+  #menu ul li:hover > ul
+  {
+    display:block
+  }
+
+/* ----------------- */
+
+.contact{
+    float: right;
+}
+.contact p{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2em;
+}
+/* -----------------------------
+    Blue section css
+-------------------------------- */
+
+#hero{
+    background: #049BAC;
+}
+.inner_hero{
+    overflow: hidden;
+    padding: 0;
+}
+.left_hero{
+    width: 48%;
+    float: left;
+    color: #fff;
+    padding: 20px 0;
+}
+.left_hero h2{
+    font-size: 34px;
+    font-weight: normal;
+    
+}
+.left_hero p{
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.4em;
+}
+.link a{
+    text-decoration: none;
+    background:#EAF2F4 ;
+    color: #4d4e49;
+    font-size: 22px;
+    padding: 10px 10px;
+    display: inline-block;
+
+}
+/* .link{
+    overflow: hidden;
+} */
+.link{
+    width: 100%;
+}
+.link_1{
+    float: left;
+}
+.link_2{
+    float: right;
+}
+.right_hero{
+    width: 48%;
+    float: right;
+    padding: 50px 0;
+    margin-left: 0;
+
+}
+.right_hero img{
+    border: 8px solid #fff;
+    float: right;
+    width: 100%;
+    height: auto;
+}
+
+/* -----------------------------
+    Service section css
+-------------------------------- */
+
+#service_section{
+    background: #EAF2F4;
+    z-index: 0;
+}
+.inner_service{
+    overflow: hidden;
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.child_service{
+    /* width: 24%; */
+    flex-basis: 24%;
+    border: 1px solid #CDD8D8;
+}
+.service_name h2{
+    margin: 0;
+    padding: 15px 0;
+    text-transform: uppercase;
+    text-align: center;
+    
+    font-weight: normal;
+    color: #049bac;
+    background: #fff;
+    font-size: 22px;
+    border-bottom: 1px solid #CDD8D8;
+}
+.about_service{
+    padding: 10px;
+}
+.about_service h3{
+    margin: 0;
+    padding: 10px 5px;
+    color: #666;
+    font-size: 22px;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+.about_service p{
+    text-align: justify; 
+    line-height: 1.4em; 
+ 
+}
+.about_service a{
+    text-decoration: none;
+    color: #4d4e49; 
+    font-size: 16px;
+    float: right;
+    padding: 15px 10px;
+    
+}
+
+/* -----------------------------
+    blog section css
+-------------------------------- */
+ #blog_section{
+    padding: 0;
+    overflow: hidden;
+ }
+ #blog_section{
+
+ }
+ .child_blog1{
+    float: left;
+    width: 50%;
+ }
+ .child_blog1 a{
+     text-decoration: none;
+    }
+ .child_blog1 h2{
+    color: #000;
+    margin-top: 25px;
+    margin-bottom: 10px;
+ }
+
+ .child{
+     padding: 0 5px;
+     padding-bottom: 30px;
+     
+
+}
+ .child h3{
+        
+        margin-top: 20px 0 5px 0;
+        padding-left: 5px;
+ }
+.child p{
+    margin: 0;
+    padding: 0 5px;
+    line-height: 1.2em;
+    text-align: justify;
+    background:;
+    
+}
+.child a{
+    padding: 0;
+    float:right;
+}
+
+ .child img{
+     float: left; 
+     border: 4px solid red;
+     margin-right: 10px;
+     margin-top: 10px;
+     
+ }
+
+
+/* -----------------------------
+    Footer section css
+-------------------------------- */
+#footer_section{
+ background: #2C2C2D;
+ 
+}
+.inner_footer{
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.child_footer{
+    flex-basis: 32%;
+    padding: 15px 5px;
+}
+
+.child_footer h3{
+    font-size: 22px;
+    font-weight: normal;
+}
+.child_footer ul{
+    list-style-type: none;
+}
+.child_footer p a{
+    text-decoration: none;
+    color: #039DAE;
+}
+.footer_element{
+    padding: 20px 5px;
+}
+.footer_element caption{
+    padding-left: 0;
+    padding-right: 0;
+}
+.footer_element a{
+    text-decoration: none;
+    color: #039DAE;
+}
+
+/* -----------------------------
+    copyright section css
+-------------------------------- */
+#copyright_section{
+    background: #000;
+}
+.inner_copy{
+    padding: 5px 0;
+    text-align: center;
+}
+.inner_copy p a{
+    text-decoration: none;
+    color: #039DAE;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media  onlu screen and (min-width: 200px;) and (max-width: 760px){
+    .child_service{
+        flex-direction: column ;
+        
+    }
+} */
