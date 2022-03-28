@@ -56,7 +56,7 @@ hr{
     background: #000;
     content: "";
     position: absolute;
-    top: 2px;
+    top: -10px;
     right: -10px;
     height: 45px;
     width: 1px;
@@ -67,24 +67,9 @@ hr{
     color: #4d4e49; 
     padding: 10px 20px; 
 }
-     
-/* 
-.logo{
-    float: left;
-}
-
-
-
-
 .search_area{
-    float: right;
-    width: 30%;  
+     margin: auto 0;
 }
-.search_area form{
-    text-align: right;
-    padding: 20px 0;   
-} */
-
 /* -----------------------------
     Navigation menu css
 -------------------------------- */
@@ -210,25 +195,24 @@ hr{
     padding: 30px 0;
     grid-gap: 10px;
 }
-/* .child_hero{
-    overflow: hidden;
-}
-.left_hero{
-    width: 48%;
-    float: left;
-    color: #fff;
+.child_hero1{
     padding: 20px 0;
-} */
-/* .left_hero h2{
-    font-size: 34px;
-    font-weight: normal;
-    
-}
-.left_hero p{
+} 
+.child_hero1 p{
+    color: #fff;
     font-size: 16px;
     text-align: justify;
     line-height: 1.4em;
+    
 }
+.child_hero1 h2{
+    font-size: 2rem;
+    font-weight: normal;
+    color: #fff;
+    
+}
+/* 
+
 .link a{
     text-decoration: none;
     background:#EAF2F4 ;
@@ -250,14 +234,8 @@ hr{
 .link_2{
     float: right;
 }
-.right_hero{
-    width: 48%;
-    float: right;
-    padding: 50px 0;
-    margin-left: 0;
 
-}
-.child_hero img{
+.child_hero2 img{
     border: 8px solid #fff;
     width: 100%;
     height: auto;
@@ -269,17 +247,15 @@ hr{
 
 #service_section{
     background: #EAF2F4;
-    z-index: 0;
+    padding: 15px 0 0 0;
 }
 .inner_service{
     overflow: hidden;
-    padding: 25px 0;
+    padding:  0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .child_service{
-    /* width: 24%; */
-    flex-basis: 24%;
     border: 1px solid #CDD8D8;
 }
 .service_name h2{
