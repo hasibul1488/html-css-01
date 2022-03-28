@@ -205,17 +205,22 @@ hr{
 #hero{
     background: #049BAC;
 }
-.child_hero{
+.inner_hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px 0;
+    grid-gap: 10px;
+}
+/* .child_hero{
     overflow: hidden;
-    padding: 0;
 }
 .left_hero{
     width: 48%;
     float: left;
     color: #fff;
     padding: 20px 0;
-}
-.left_hero h2{
+} */
+/* .left_hero h2{
     font-size: 34px;
     font-weight: normal;
     
@@ -233,7 +238,7 @@ hr{
     padding: 10px 10px;
     display: inline-block;
 
-}
+} */
 /* .link{
     overflow: hidden;
 } */
@@ -253,9 +258,8 @@ hr{
     margin-left: 0;
 
 }
-.right_hero img{
+.child_hero img{
     border: 8px solid #fff;
-    float: right;
     width: 100%;
     height: auto;
 }
