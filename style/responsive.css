@@ -1,9 +1,29 @@
 @media only screen and (max-width:500px){
-    
-.logo_area{
+ 
+/* ======================
+    header section
+========================= */  
+.inner_header{
     display: grid;
     grid-template-columns: 1fr;
+} 
+.logo_area{
+    grid-template-columns: 1fr;
 }
+.logo h1{
+    font-weight: normal;
+    font-size: 36px;  
+    margin: 20px 0 0 0;
+}
+.moto p{
+    margin: 10px auto;
+    
+    font-size: 15px;
+    font-weight: normal;
+    color: #4d4e49; 
+     
+}
+
 /* ======================
     menu section
 ========================= */
