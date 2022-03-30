@@ -197,6 +197,7 @@ hr{
 }
 .child_hero1{
     padding: 20px 0;
+    
 } 
 .child_hero1 p{
     color: #fff;
@@ -211,7 +212,7 @@ hr{
     color: #fff;
     
 }
-/* 
+ 
 
 .link a{
     text-decoration: none;
@@ -221,10 +222,8 @@ hr{
     padding: 10px 10px;
     display: inline-block;
 
-} */
-/* .link{
-    overflow: hidden;
-} */
+}
+
 .link{
     width: 100%;
 }
@@ -240,7 +239,9 @@ hr{
     width: 100%;
     height: auto;
 }
-
+.child_hero2{
+    
+}
 /* -----------------------------
     Service section css
 -------------------------------- */
@@ -249,43 +250,45 @@ hr{
     background: #EAF2F4;
     padding: 15px 0 0 0;
 }
-.inner_service{
-    overflow: hidden;
-    padding:  0;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-.child_service{
-    border: 1px solid #CDD8D8;
-}
-.service_name h2{
+.service_head h2{
     margin: 0;
     padding: 15px 0;
     text-transform: uppercase;
     text-align: center;
-    
     font-weight: normal;
     color: #049bac;
     background: #fff;
     font-size: 22px;
     border-bottom: 1px solid #CDD8D8;
 }
-.about_service{
-    padding: 10px;
+
+.inner_service{
+    overflow: hidden;
+    padding:  0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
 }
-.about_service h3{
+.child_service{
+    border: 1px solid #CDD8D8;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    color: #666;
+    text-align: justify;
+    transition: 0.5s ease;
+}
+
+
+
+.child_service h3{
     margin: 0;
     padding: 10px 5px;
-    color: #666;
     font-size: 22px;
     font-weight: normal;
     text-transform: capitalize;
 }
-.about_service p{
-    text-align: justify; 
-    line-height: 1.4em; 
- 
-}
+
 .about_service a{
     text-decoration: none;
     color: #4d4e49; 
@@ -293,6 +296,10 @@ hr{
     float: right;
     padding: 15px 10px;
     
+}
+.child_service:hover{
+    color: #fff;
+    background: #049BAC;
 }
 
 /* -----------------------------
