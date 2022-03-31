@@ -96,6 +96,10 @@ grid-template-columns: 1fr;
 .child_blog1 {
     width: 100%;
 }
+.child img{
+    width: 80px;
+    height: 80px;
+}
   
 /* ======================
     footer section 
